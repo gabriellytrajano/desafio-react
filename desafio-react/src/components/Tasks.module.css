@@ -44,3 +44,22 @@
     margin-top: 1.5rem;
 
 }
+
+.empty {
+    margin-top: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    color: var(--gray-300);
+    text-align: center;
+}
+
+.empty svg {
+    opacity: 0.3;
+}
+
+.empty p {
+    font-weight: 700;
+}

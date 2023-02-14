@@ -8,18 +8,7 @@
     align-items: center;
     justify-content: space-between;
     margin-bottom: 0.75rem;
-}
-
-.task span {
-    color: var(--gray-100);
-    font-size: 0.875rem;
-    font-weight: 400;
-}
-
-.trash {
-    background: transparent;
-    border: none;
-    color: var(--gray-300);
+    gap: 0.75rem;
 }
 
 .task p {
@@ -27,4 +16,38 @@
     line-height: 1.18rem;
     color: var(--gray-100);
     margin-right: auto;
+}
+
+p.textCompleted {
+    color: var(--gray-300);
+    text-decoration: line-through;
+}
+
+.checkContainer {
+    width: 1.5rem;
+    height: 1.5rem;
+    background: none;
+    border: none;
+}
+
+.checkContainer div {
+    width: 100%;
+    height: 100%;
+    border: 2px solid var(--blue);
+    border-radius: 50%;
+}
+
+.checkContainer svg {
+    width: 100%;
+    height: 100%;
+    color: var(--gray-100);
+    background: var(--purple);
+    border-radius: 50%;
+    border: none;
+}
+
+.trash {
+    background: transparent;
+    border: none;
+    color: var(--gray-300);
 }
